@@ -25,12 +25,12 @@ const Home = () => (
     <p className="text-gray-700 text-center mb-6">We sell awesome products online. Shop with us!</p>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {[
-        { name: "T-Shirts", image: "../src/assets/tshirt.jpg" },
-        { name: "Shoes", image: "../src/assets/shoes.jpg" },
-        { name: "Watches", image: "../src/assets/watchs.jpg" },
-        { name: "Bags", image: "../src/assets/bags.jpg" },
-        { name: "Accessories", image: "../src/assets/accessaroies.jpg" },
-        { name: "Gadgets", image: "../src/assets/gadjet.jpg" },
+        { name: "T-Shirts", image: "https://images.pexels.com/photos/9558567/pexels-photo-9558567.jpeg?_gl=1*izamxi*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQzNzMkajEkbDAkaDA." },
+        { name: "Shoes", image: "https://images.pexels.com/photos/28375818/pexels-photo-28375818.jpeg?_gl=1*1pla66v*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQxNzIkajU5JGwwJGgw" },
+        { name: "Watches", image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?_gl=1*a0jobv*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQ0NDIkajI2JGwwJGgw" },
+        { name: "Bags", image: "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?_gl=1*1qa4wda*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQyNzEkajQxJGwwJGgw" },
+        { name: "Accessories", image: "https://images.pexels.com/photos/31069234/pexels-photo-31069234.jpeg?_gl=1*1llm6p6*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQ3NzEkajYwJGwwJGgw" },
+        { name: "Gadgets", image: "https://images.pexels.com/photos/7864614/pexels-photo-7864614.jpeg?_gl=1*n2dzjw*_ga*MTI3NTI0MTYwNy4xNzU0MzI0MTEw*_ga_8JE65Q40S6*czE3NTQzMjQxMTAkbzEkZzEkdDE3NTQzMjQ2NDMkajEkbDAkaDA." },
       ].map((item) => (
         <div key={item.name} className="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
           <img src={item.image} alt={item.name} className="w-full h-40 object-cover rounded mb-3" />
