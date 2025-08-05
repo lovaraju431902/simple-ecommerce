@@ -7,7 +7,7 @@ const Layout = ({ children }) => (
       <h1 className="text-xl sm:text-2xl font-bold">🛍️ My E-Commerce</h1>
       <nav className="space-x-2 text-sm sm:text-base overflow-x-auto whitespace-nowrap">
         <Link to="/" className="text-blue-600 hover:underline">Home</Link>
-        <Link to="/contact" className="text-blue-600 hover:underline">Contact</Link>
+        <Link to="/contact" className="text-blue-600 hover:underline">ContacT</Link>
         <Link to="/shipping" className="text-blue-600 hover:underline">Shipping</Link>
         <Link to="/terms" className="text-blue-600 hover:underline">Terms</Link>
         <Link to="/refund" className="text-blue-600 hover:underline">Refund</Link>
